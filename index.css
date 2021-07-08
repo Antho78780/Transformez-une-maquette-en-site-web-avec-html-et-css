@@ -31,7 +31,7 @@ position:absolute;
 top:3%;
 right:12%
 }
-#toutlesfiltres,#texte1,#gras
+#toutlesfiltres,#texte1,.gras
 {
 font-weight: bold;
 }
@@ -276,5 +276,9 @@ position:absolute;
 top:180%;
 left:60%;
 }
-
+figcaption
+{
+position:absolute;
+top:10%
+}
 

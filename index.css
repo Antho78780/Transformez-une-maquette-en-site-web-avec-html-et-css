@@ -1,0 +1,280 @@
+#bloc_page
+{
+margin:auto;
+width: 1440px;
+height:1884px;
+font-family:Arial, Helvetica, sans-serif
+
+}
+
+h1
+{
+color:blue;
+margin-left:40px;
+font-style: italic;
+}
+#hebergement
+{
+position:absolute;
+right:28%;
+top:3%;
+}
+#activites
+{
+position:absolute;
+right:20%;
+top:3%;
+}
+#sinscrire
+{
+position:absolute;
+top:3%;
+right:12%
+}
+#toutlesfiltres,#texte1,#gras
+{
+font-weight: bold;
+}
+#filtres
+{
+text-align: left;
+}
+#economiques
+{
+position:absolute;
+left:5%;
+top:20%;
+margin-left: 15%;
+}
+#familial
+{
+position:absolute;
+left:30%;
+top:20%
+}
+
+#romantique
+{
+position:absolute;
+top:20%;
+left:40%;
+}
+#animaux
+{
+position:absolute;
+top:20%;
+left:50%;
+}
+#economiques,#familial,#romantique,#animaux
+{
+border:1px solid gray;
+border-radius:20px;
+padding:7px 7px 7px 7px;
+}
+
+
+#search
+{
+margin-left:30px;
+}
+#texte
+{
+position:absolute;
+top:440%;
+left:10%
+}
+#texte2
+{
+position:absolute;
+top:440%;
+right:50%
+}
+#texte3
+{
+position:absolute;
+top:440%;
+right:20%;
+}
+
+img{
+width:20%;
+}
+
+
+#photo1
+{
+width:240px;
+height:100px;
+border-radius: 10px;
+position: absolute;
+top:47%
+}
+#photo2
+{
+text-align:left;
+width:240px;
+height:100px;
+border-radius: 10px;
+position:absolute;
+top:67%
+}
+#photo3
+{
+
+position:absolute;
+width:240px;
+height:100px;
+border-radius: 10px;
+left:27%;
+top:47%
+}
+#photo4
+{
+
+width:240px;
+height:100px;
+border-radius: 10px;
+position: absolute;
+top:67%;
+left:27%;
+}
+#photo5
+{
+width:240px;
+height:100px;
+border-radius: 10px;
+position:absolute;
+top:47%;
+left:42%;
+}
+#photo6
+{
+width:240px;
+height:100px;
+border-radius: 10px;
+position:absolute;
+top:67%;
+left:42%;
+
+}
+#photo7
+{
+    width:100px;
+    height:100px;
+    border-radius: 10px;
+    position:absolute;
+    right:34%;
+    top:47%
+}
+#photo8
+{
+    width:100px;
+    height:100px;
+    border-radius: 10px;
+    position:absolute;
+    right:34%;
+    top:62%;
+
+}
+#photo9
+{
+    width:100px;
+    height:100px;
+    border-radius: 10px;
+    position:absolute;
+    right:34%;
+    top:77%;
+}
+#lespluspopulaires
+{
+position:absolute;
+top:40%;
+right:34%;
+}
+#hebergementamarseille
+{
+font-weight: bold;
+position: absolute;
+top:40%;
+left:12%;
+}
+#afficherplus
+{
+position:absolute;
+top:85%;
+font-weight:bold;
+}
+#activitesamarseille
+{
+font-weight:bold;
+position:absolute;
+top:100%;
+}
+#photo10
+{
+width:300px;
+height:400px;
+position:absolute;
+left:12%;
+top:107%;
+}
+#photo11
+{
+width:300px;
+height:200px;
+position:absolute;
+top:107%;
+left:30%;
+}
+#photo12
+{
+width:300px;
+height:135px;
+position:absolute;
+top:135%;
+left:30%;
+}
+#photo13
+{
+width:300px;
+height:400px;
+position:absolute;
+top:107%;
+right:35%
+}
+#photo14
+{
+width:300px;
+height:135px;
+position:absolute;
+top:107%;
+right:16%
+}
+#photo15
+{
+width:300px;
+height:200px;
+position: absolute;
+right:16%;
+top:128%;
+}
+#apropos
+{
+position: absolute;
+top:180%;
+left:12%
+}
+#noshebergements
+{
+position:absolute;
+top:180%;
+left:35%;
+}
+#assistance
+{
+position:absolute;
+top:180%;
+left:60%;
+}
+
+

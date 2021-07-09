@@ -1,12 +1,12 @@
 #bloc_page
 {
-margin:auto;
-width: 1440px;
+ width: 1440px;
 height:1884px;
+margin:auto;
+margin-left: auto;
+margin-right: auto;
 font-family:Arial, Helvetica, sans-serif
-
 }
-
 h1
 {
 color:blue;
@@ -37,7 +37,9 @@ font-weight: bold;
 }
 #filtres
 {
-text-align: left;
+position:absolute;
+left:12%;
+top:20%;
 }
 #economiques
 {
@@ -46,18 +48,29 @@ left:5%;
 top:20%;
 margin-left: 15%;
 }
+#economiques:hover
+{
+color:blue
+}
 #familial
 {
 position:absolute;
 left:30%;
 top:20%
 }
-
+#familial:hover
+{
+color: blue;
+}
 #romantique
 {
 position:absolute;
 top:20%;
 left:40%;
+}
+#romantique:hover
+{
+color: blue;
 }
 #animaux
 {
@@ -65,14 +78,21 @@ position:absolute;
 top:20%;
 left:50%;
 }
+#animaux:hover
+{
+color:blue;
+}
+#ville
+{
+position:absolute;
+top:27%;
+}
 #economiques,#familial,#romantique,#animaux
 {
 border:1px solid gray;
 border-radius:20px;
 padding:7px 7px 7px 7px;
 }
-
-
 #search
 {
 margin-left:30px;
@@ -99,8 +119,6 @@ right:20%;
 img{
 width:20%;
 }
-
-
 #photo1
 {
 width:240px;
@@ -138,7 +156,7 @@ position:absolute;
 width:240px;
 height:100px;
 border-radius: 10px;
-left:27%;
+left:28%;
 top:47%
 }
 #legende3
@@ -155,7 +173,7 @@ height:100px;
 border-radius: 10px;
 position: absolute;
 top:67%;
-left:27%;
+left:28%;
 }
 #legende4
 {
@@ -282,7 +300,7 @@ top:107%;
 {
 position:absolute;
 left:13%;
-top:152%;
+top:150%;
 font-weight: bold;
 }
 #photo11
@@ -326,7 +344,7 @@ right:35%
 #legende13
 {
 position:absolute;
-top:152%;
+top:150%;
 left:50%;
 font-weight: bold;
 }

@@ -99,6 +99,18 @@ padding:7px 7px 7px 7px;
 position:absolute;
 left:10%;
 top:17%;
+font-weight: bold;
+}
+#search2
+{
+position:absolute;
+left:22%;
+top:16%;
+background-color:blue;
+color:white;
+padding: 7px;
+border-radius:0px 10px 10px 0px;
+font-weight: bold;
 }
 #texte1
 {

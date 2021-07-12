@@ -1,93 +1,55 @@
-#bloc_page
+
+#titre_principal
 {
-width:auto;
-height:auto;
-margin:auto;
-font-family:Arial, Helvetica, sans-serif
-}
-h1
-{
-position:absolute;
-left:8%;
+display:flex;
+flex-direction: row;
 color:blue;
-margin-left:40px;
-font-style: italic;
 }
-#hebergement
+header{
+
+justify-content: space-between;
+align-items: flex-end;
+flex-direction: row-reverse;
+}
+ul
 {
-position:absolute;
-right:28%;
-top:3%;
+display: flex;
+list-style-type: none;
 }
-#activites
+.lien{
+margin-right: 70px;
+
+}
+#liens
 {
-position:absolute;
-right:20%;
-top:3%;
+display: flex;
+flex-direction: row-reverse;
 }
-#sinscrire
+.menu
 {
-position:absolute;
-top:3%;
-right:12%
+border: 1px solid gray;
+padding:7px ;
+border-radius: 15px;
+margin-left: 50px;
+
 }
-#toutlesfiltres,#texte1,.gras
+#texte
+{
+display:inline-block;
+margin-left:50px;
+
+}
+#recherche
+{
+display:flex;
+
+}
+
+#menu2,#texte1,.gras
 {
 font-weight: bold;
 }
-#filtres
-{
-position:absolute;
-left:12%;
-top:21%;
-}
-#economiques
-{
-position:absolute;
-left:2%;
-top:20%;
-margin-left: 15%;
-}
-#economiques:hover
-{
-color:blue
-}
-#familial
-{
-position:absolute;
-left:27%;
-top:20%
-}
-#familial:hover
-{
-color: blue;
-}
-#romantique
-{
-position:absolute;
-top:20%;
-left:35%;
-}
-#romantique:hover
-{
-color: blue;
-}
-#animaux
-{
-position:absolute;
-top:20%;
-left:45%;
-}
-#animaux:hover
-{
-color:blue;
-}
-#ville
-{
-position:absolute;
-top:27%;
-left:11%;
-}
+
 #economiques,#familial,#romantique,#animaux
 {
 border:1px solid gray;
@@ -112,18 +74,7 @@ padding: 7px;
 border-radius:0px 10px 10px 0px;
 font-weight: bold;
 }
-#texte1
-{
-position:absolute;
-left:10%;
-top:10%;
-}
-#texte2
-{
-position:absolute;
-left:10%;
-top:12%;
-}
+
 img{
 width:20%;
 }

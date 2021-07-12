@@ -8,39 +8,44 @@
 </head>
 
 <body>
-<div id="bloc_page">
-<header>
-<h1>Reservia</h1>
 
-<nav>
-<p id="hebergement">hébergement</p>
-<p id="activites">Activités</p>
-<p id="sinscrire">S'inscrire</p>
+<header>
+<h1 id="titre_principal">Reservia</h1>
+<p id="texte1">Trouvez votre hébergement pour des vacances de rèves</p>
+<p id="texte2">En plein centre ville ou en pleine nature</p>
+
+
+<nav id="liens">
+<ul>
+<li class="lien"><a href="#hebergements">Hébergements</a></li>
+<li class="lien"><a href="#activites">Activités</a></li>
+<li>S'inscrire</li>
+</ul>
 </nav>
 </header>
 
-<section>
-<p id="texte1">Trouvez votre hébergement pour des vacances de rèves</p>
-<br>
-<p id="texte2">En plein centre ville ou en pleine nature</p>
-
+<nav id="recherche">
 <input type="search" name="search" id="search" placeholder = "Marseille,France">
 <input type="submit" value="Rechercher" id="search2">
+</nav>
 
 
-<div id="toutlesfiltres">
-<p id="filtres">Filtres</p>
-<p id="economiques">Economiques</p>
-<p id="familial">Familial</p>
-<p id="romantique">Romantique</p>
-<p id="animaux">Animaux autorisés</p>
-</div>
+
+<nav id="toutlesfiltres">
+<ul>
+<li class="menu">Filtres</li>
+<li class="menu">Economiques</li>
+<li class="menu">Familial</li>
+<li class="menu">Romantique</li>
+<li class="menu">Animaux Autorisés</li>
+</ul>
+</nav>
 
 <br>
 <br>
 <br>
 <p id="ville">Plus de 500 logements sont disponibles dans cette ville</p>
-</section>
+
 
 <br>
 <br>
@@ -104,9 +109,9 @@
 </section>
 
 <figure>
-    
+
 <figure>
-<a href="activites/vieux_port.jpg"><img src="activites/vieux_port.jpg" alt="vieux port" id="photo10"></a>
+<a href="activites/vieux_port.jpg"><img src="activites/vieux_port.jpg" alt="vieux port" id="photo10" ></a>
 <figcaption id="legende10">Vieux port</figcaption>
 </figure>
 
@@ -137,7 +142,6 @@
 
 </figure>
 
-
 <footer>
 <div id="apropos">
 <p class="gras">A propos</p>
@@ -159,6 +163,5 @@
 </div>
 </footer>
 
-</div>
 </body>
 </html>

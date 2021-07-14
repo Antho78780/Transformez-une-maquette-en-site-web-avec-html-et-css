@@ -1,44 +1,38 @@
 
+body
+{
+margin:auto;
+width:1500px;
+}
+
 #titre_principal
 {
+color:#0065FC;
+}
+.header1
+{
 display:flex;
-flex-direction: row;
-color:blue;
-}
-header{
-
 justify-content: space-between;
-align-items: flex-end;
-flex-direction: row-reverse;
 }
-ul
+#search
 {
+margin-top:1rem;
+}
+.filtres{
+margin-top: 0.5rem;
+}
+#toutlesfiltres
+{
+display:flex;
+margin-top: 3rem;
+}
+.searchfiltres
+{
+margin-top:1rem;
 display: flex;
-list-style-type: none;
 }
-.lien{
-margin-right: 70px;
 
-}
-#liens
-{
-display: flex;
-flex-direction: row-reverse;
-}
-.menu
-{
-border: 1px solid gray;
-padding:7px ;
-border-radius: 15px;
-margin-left: 50px;
 
-}
-#texte
-{
-display:inline-block;
-margin-left:50px;
-
-}
 #recherche
 {
 display:flex;
@@ -50,12 +44,6 @@ display:flex;
 font-weight: bold;
 }
 
-#economiques,#familial,#romantique,#animaux
-{
-border:1px solid gray;
-border-radius:20px;
-padding:7px 7px 7px 7px;
-}
 #search
 {
 position:absolute;
@@ -76,296 +64,80 @@ font-weight: bold;
 }
 
 img{
-width:20%;
-}
-#photo1
-{
-width:175px;
-height:90px;
-border-radius: 10px 10px 0px 0px;
-position: absolute;
-top:47%;
-left:12%
-}
-#legende1
-{
-position:absolute;
-top:57%;
-left:12%;
-font-weight: bold;
-}
-span{
-font-weight: lighter;
-font-size: 0.9em;
-}
-#photo2
-{
-width:175px;
-height:90px;
-border-radius: 10px 10px 0px 0px;
-position:absolute;
-top:65%;
-left:12%;
-
-}
-#legende2
-{
-position:absolute;
-top:75%;
-left:12%;
-font-weight: bold;
-}
-#photo3
-{
-position:absolute;
-width:175px;
-height:90px;
-border-radius: 10px 10px 0px 0px;
-left:23%;
-top:47%
-}
-#legende3
-{
-position:absolute;
-top:57%;
-left:23%;
-font-weight: bold;
-}
-#photo4
-{
-width:175px;
-height:90px;
-border-radius: 10px 10px 0px 0px;
-position: absolute;
-top:65%;
-left:23%;
-}
-#legende4
-{
-position:absolute;
-top:75%;
-left:23%;
-font-weight: bold;
-}
-#photo5
-{
-width:175px;
-height:90px;
-border-radius:10px 10px 0px 0px;
-position:absolute;
-top:47%;
-left:34%;
-}
-#legende5
-{
-position:absolute;
-top:57%;
-left:34%;
-font-weight: bold;
-}
-#photo6
-{
-width:175px;
-height:90px;
-border-radius:10px 10px 0px 0px;
-position:absolute;
-top:65%;
-left:34%;
-}
-#legende6
-{
-position:absolute;
-top:75%;
-left:34%;
-font-weight:bold;
-}
-#photo7
-{
-    width:120px;
-    height:100px;
-    border-radius: 10px 0px 0px 10px;
-    position:absolute;
-    right:45%;
-    top:47%
-}
-#legende7
-{
-position:absolute;
-top:48%;
-right:37%;
-font-weight: bold;
-}
-#photo8
-{
-    width:120px;
-    height:100px;
-    border-radius: 10px 0px 0px 10px;
-    position:absolute;
-    right:45%;
-    top:62%;
-}
-#legende8
-{
-position:absolute;
-right:37%;
-top:63%;
-font-weight: bold;
-}
-#photo9
-{
-    width:120px;
-    height:100px;
-    border-radius:  10px 0px 0px 10px;
-    position:absolute;
-    right:45%;
-    top:77%;
-}
-#legende9
-{
-position:absolute;
-right:37%;
-top:78%;
-font-weight: bold;
-}
-#lespluspopulaires
-{
-position:absolute;
-top:40%;
-right:44%;
-font-weight: bold;
-}
-#hebergementamarseille
-{
-font-weight: bold;
-position: absolute;
-top:40%;
-left:12%;
-}
-#afficherplus
-{
-position:absolute;
-top:83%;
-left:11%;
-font-weight:bold;
-}
-#activitesamarseille
-{
-font-weight:bold;
-position:absolute;
-top:100%;
-left:11%
-}
-#photo10
-{
+margin:auto;
 width:250px;
-height:400px;
-position:absolute;
-left:12%;
-top:104.5%;
-border-radius: 10px 10px 0px 0px;
 }
-#legende10
+.hostingMain
 {
-position:absolute;
-left:12%;
-top:148%;
-font-weight: bold;
+display:flex;
+flex-wrap: wrap;
 }
-#photo11
+
+.hosting{
+display:grid;
+grid-template-columns: 6fr 3fr;
+}
+.activity {
+    display: grid;
+    column-gap: 2rem;
+    margin: 4rem 0;
+  }
+  
+  
+  
+  
+  .activityCard {
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+  }
+  
+  
+  @media (min-width: 1100px) {
+    .activity {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+    }
+  
+  
+  
+  .activityCard1 {
+      grid-row: 2/7;
+      grid-column: 1/2;
+    }
+    
+    .activityCard2 {
+      grid-column: 2/3;
+      grid-row: 2/5;
+    }
+    .activityCard3 {
+      grid-column: 3/4;
+      grid-row: 2/7;
+    }
+    .activityCard4 {
+      grid-column: 4/5;
+      grid-row: 2/3;
+    }
+    .activityCard5 {
+      grid-column: 2/3;
+      grid-row: 6/7;
+    }
+    
+    .activityCard6 {
+      grid-column: 4/5;
+      grid-row: 4/7;
+    }
+  }
+.footer
 {
-width:300px;
-height:200px;
-position:absolute;
-top:107%;
-left:27%;
-border-radius: 10px 10px 0px 0px;
+background-color: #F2F2F2;
+display:flex;
+justify-content: space-between;
 }
-#legende11
-{
-position:absolute;
-top:129%;
-left:27%;
-font-weight: bold;
-}
-#photo12
-{
-width:300px;
-height:110px;
-position:absolute;
-top:135%;
-left:27%;
-border-radius: 10px 10px 0px 0px;
-}
-#legende12
-{
-position:absolute;
-top:148%;
-left:27%;
-font-weight: bold;
-}
-#photo13
-{
-width:300px;
-height:379px;
-position:absolute;
-top:107%;
-right:39%;
-border-radius:10px 10px 0px 0px;
-}
-#legende13
-{
-position:absolute;
-top:148%;
-left:45%;
-font-weight: bold;
-}
-#photo14
-{
-width:300px;
-height:135px;
-position:absolute;
-top:107%;
-right:21%;
-border-radius: 10px 10px 0px 0px;
-}
-#legende14
-{
-position:absolute;
-top:123%;
-left:63%;
-font-weight: bold;
-}
-#photo15
-{
-width:300px;
-height:180px;
-position: absolute;
-right:21%;
-top:128%;
-border-radius: 10px 10px 0px 0px;
-}
-#legende15
-{
-position:absolute;
-top:148%;
-left:63%;
-font-weight: bold;
-}
-#apropos
-{
-position: absolute;
-top:180%;
-left:12%
-}
-#noshebergements
-{
-position:absolute;
-top:180%;
-left:35%;
-}
-#assistance
-{
-position:absolute;
-top:180%;
-left:60%;
-}
+
+
+
+

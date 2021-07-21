@@ -10,25 +10,32 @@ width:1500px;
 a
 {
 text-decoration:none;
+color:black
 }
 #titre_principal
 {
 color:#0065FC;
 }
+.litletexte
+{
+margin-top:-10px
+}
 .header1
 {
 display:flex;
 justify-content: space-between;
-margin-top: 10px;
+margin-top: 50px;
 width:1500px
 }
 .menu
 {
 padding:40px;
+color: black;
 }
 .menu:hover
 {
-color:#0065FC
+color:#0065FC;
+border-top:2px solid
 }
 :placeholder-shown
 {
@@ -59,6 +66,10 @@ border:1px solid gray;
 border-radius: 70px;
 margin:30px
 }
+.searchfiltres:hover
+{
+color:#0065FC
+}
 .searchtitres
 {
 font-size: 1.1em;
@@ -83,7 +94,7 @@ margin-left: 30px;
 .figure1
 {
 background-color:white;
-padding-bottom: 50px;
+padding-bottom: 20px;
 box-shadow:0px 0px 2px grey;
 border-radius:10px 10px 0px 0px;
 }
@@ -94,18 +105,18 @@ background-color: white;
 display:flex;
 border-radius:10px 0px 0px 10px;
 }
-.figcaption2
+.figcaption1
 {
-margin-top:5px;
 color:black;
+padding-left:10px;
 }
-.figcaption4
+.figcaption3
 {
+color:black;
 width:200px;
 padding-left:20px;
-color:black
 }
-.figcaption6
+.figcaption5
 {
 color:black
 }

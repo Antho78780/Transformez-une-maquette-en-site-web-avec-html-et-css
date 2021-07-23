@@ -74,10 +74,6 @@ margin-left:30px;
 border:1px solid grey;
 border-radius: 50px 50px 50px 50px;
 }
-.searchfiltres:hover
-{
-color:#0065FC
-}
 .logo2
 {
 padding-right:30px;
@@ -148,6 +144,10 @@ margin-top:-15px
 color:#0065FC;
 margin-top:-10px
 }
+.colorStar
+{
+color:#DCDCDC
+}
 .voirPlus
 {
 color:black;
@@ -187,7 +187,7 @@ margin-top:40px;
 {
 display:flex;
 flex-wrap: wrap;
-max-height: 2500px;
+width:1400px;
 }
 .edit3
 {

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
-
 body
 {
 margin:auto;
@@ -7,32 +6,26 @@ height:auto;
 font-family:Raleway,sans-serif;
 width:1500px;
 }
-.stars
-{
-color:#0065FC;
-
-}
-
-
 a
 {
 text-decoration:none;
 color:black
 }
-#titre_principal
+img
 {
-color:#0065FC;
+margin:auto;
+width:250px;
 }
-.litletexte
-{
-margin-top:-10px
-}
-.header1
+#header
 {
 display:flex;
-justify-content: space-between;
-margin-top: 50px;
-width:1500px
+justify-content:space-between;
+margin-top:50px
+}
+#logo
+{
+width:100px;
+margin-left:0px
 }
 .menu
 {
@@ -43,6 +36,10 @@ color: black;
 {
 color:#0065FC;
 border-top:2px solid
+}
+.search
+{
+padding:30px;
 }
 :placeholder-shown
 {
@@ -62,35 +59,94 @@ border:0px solid;
 {
 display:flex;
 margin-top: 20px;
-
+}
+.searchtitres
+{
+font-size: 1.1em;
+margin-top:20px;
 }
 .searchfiltres
 {
-padding:7px;
 font-size:1.2em;
 font-weight: bold;
-border:1px solid gray;
-border-radius: 70px;
-margin:30px
+padding:15px;
+margin-left:30px;
+border:1px solid grey;
+border-radius: 50px 50px 50px 50px;
 }
 .searchfiltres:hover
 {
 color:#0065FC
 }
-.searchtitres
+.logo2
 {
-font-size: 1.1em;
-margin-top:40px;
-
+padding-right:30px;
+color:#0065FC;
+width:7px;
+background-color:#F2F2F2;
+border-radius:50px;
 }
-
-#menu2,#texte1,.gras
+#infos
 {
-font-weight: bold;
+color:#0065FC;
+font-size:14px;
 }
-img{
-margin:auto;
-width:250px;
+.texte
+{
+margin-top:-16px;
+margin-left:25px;
+}
+#titres
+{
+display:flex;
+justify-content: space-between;
+background-color: #F2F2F2;
+}
+.titre
+{
+margin-left:50px;
+margin-right:170px;
+}
+#hebergements
+{
+display:flex
+}
+#main
+{
+display:flex;
+flex-wrap: wrap;
+padding:0px 5px 50px 20px;
+border-radius:10px 10px 10px 10px;
+background-color: #F2F2F2;
+}
+.figure1
+{
+background-color:white;
+padding-bottom: 5px;
+box-shadow:0px 0px 2px grey;
+border-radius:10px 10px 10px 10px;
+}
+.edit
+{
+border-radius: 10px 10px 0px 0px;
+}
+.figcaption1
+{
+color:black;
+padding-left:10px;
+}
+.figcaption2
+{
+margin-top:0px;
+}
+.litletexte
+{
+margin-top:-15px
+}
+.stars
+{
+color:#0065FC;
+margin-top:-10px
 }
 .voirPlus
 {
@@ -98,56 +154,17 @@ color:black;
 font-weight:bold;
 margin-left: 30px;
 }
-.figure1
+.main2
 {
-background-color:white;
-padding-bottom: 20px;
-box-shadow:0px 0px 2px grey;
-border-radius:10px 10px 0px 0px;
+background-color: #F2F2F2;
+margin-left:35px;
 }
 .figure2
 {
 box-shadow: 0px 0px 5px grey;
 background-color: white;
 display:flex;
-border-radius:10px 0px 0px 10px;
-}
-.figcaption1
-{
-color:black;
-padding-left:10px;
-}
-.figcaption3
-{
-color:black;
-width:200px;
-padding-left:20px;
-}
-.figcaption5
-{
-color:black
-}
-.main2
-{
-background-color:#F2F2F2;
 border-radius:10px 10px 10px 10px;
-max-width:1000px;
-margin-top:-100px;
-}
-.main
-{
-display:flex;
-flex-wrap: wrap;
-max-width:1000px;
-background-color:#F2F2F2;
-margin-right:30px;
-padding:0px 5px 50px 20px;
-border-radius:10px 10px 10px 10px;
-margin-top: -20px;
-}
-.edit
-{
-border-radius: 10px 10px 0px 0px;
 }
 .edit2
 {
@@ -155,36 +172,38 @@ border-radius: 10px 0px 0px 10px;
 height:150px;
 width:150px
 }
-.edit3
+.figcaption3
 {
-border-radius: 10px 10px 0px 0px;
+color:black;
+width:200px;
+padding-left:20px;
 }
-.hebergements
+.stars2
 {
-margin-top:20px;
-display:flex;
-width:1700px;
-
+color:#0065FC;
+margin-top:40px;
 }
-.activites
+#activites
 {
 display:flex;
 flex-wrap: wrap;
 max-height: 2500px;
 }
-.footer
+.edit3
+{
+border-radius: 10px 10px 0px 0px;
+}
+.figcaption5
+{
+color:black
+}
+#footer
 {
 display:flex;
 background-color: #F2F2F2;
 justify-content: space-around;
 }
 
-.titre2
-{
-padding:7px;
-}
-.titre
-{
-margin-top:70px;
-}
+
+
 

@@ -58,7 +58,6 @@ border:0px solid;
 #toutlesfiltres
 {
 display:flex;
-margin-top: 20px;
 }
 .searchtitres
 {
@@ -69,18 +68,25 @@ margin-top:20px;
 {
 font-size:1.2em;
 font-weight: bold;
-padding:15px;
 margin-left:30px;
-border:1px solid grey;
-border-radius: 50px 50px 50px 50px;
+border:2px solid #DCDCDC;
+border-radius:50px 50px 50px 50px;
+display:flex;
+align-items:center;
+padding-right:20px;
+padding-left:-1px;
+border-left:none;
 }
 .logo2
 {
-padding-right:30px;
 color:#0065FC;
-width:7px;
-background-color:#F2F2F2;
-border-radius:50px;
+background-color:#D6EAF8 ;
+border-radius:100%;
+display:flex;
+align-items:center;
+justify-content: center;
+width:52px;
+height:52px;
 }
 #infos
 {

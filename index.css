@@ -89,6 +89,7 @@ border-radius:100%;
 justify-content:center;
 padding:15px;
 margin-left:-10px;
+margin-right: 10px;
 }
 #infos
 {
@@ -108,8 +109,8 @@ background-color: #F2F2F2;
 }
 .titre
 {
-margin-left:50px;
-margin-right:170px;
+margin-left:30px;
+margin-right:330px;
 }
 #hebergements
 {
@@ -129,6 +130,7 @@ background-color:white;
 padding-bottom: 5px;
 box-shadow:0px 0px 2px grey;
 border-radius:10px 10px 10px 10px;
+margin:15px
 }
 .edit
 {
@@ -161,6 +163,7 @@ color:#DCDCDC
 color:black;
 font-weight:bold;
 margin-left: 30px;
+margin-top:20px;
 }
 .main2
 {
@@ -173,6 +176,7 @@ box-shadow: 0px 0px 5px grey;
 background-color: white;
 display:flex;
 border-radius:10px 10px 10px 10px;
+margin-right:190px;
 }
 .edit2
 {
@@ -191,17 +195,21 @@ padding-left:20px;
 color:#0065FC;
 margin-top:40px;
 }
+.titre2
+{
+margin-bottom:0px;
+}
 #activites
 {
 display:flex;
-width:2000px
+justify-content:flex-start;
 }
-
 .figure3
 {
-height:170px;
-margin:25px
+height:200px;
+margin:25px;
 }
+
 #activites2
 {
 position:relative;
@@ -214,7 +222,6 @@ position: relative;
 top:200px;
 right:600px;
 }
-
 .edit3
 {
 border-radius: 10px 10px 0px 0px;

@@ -110,11 +110,15 @@ background-color: #F2F2F2;
 .titre
 {
 margin-left:30px;
-margin-right:330px;
+margin-right: 350px;
+}
+.graph
+{
+display:flex;
 }
 #hebergements
 {
-display:flex
+display:flex;
 }
 #main
 {
@@ -167,8 +171,9 @@ margin-top:20px;
 }
 .main2
 {
-background-color: #F2F2F2;
+background-color: #F2F2f2;
 margin-left:35px;
+
 }
 .figure2
 {

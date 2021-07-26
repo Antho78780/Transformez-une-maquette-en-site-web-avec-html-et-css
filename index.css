@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
 body
 {
@@ -64,6 +65,7 @@ display:flex;
 font-size: 1.1em;
 margin-top:20px;
 }
+
 .searchfiltres
 {
 font-size:1.2em;
@@ -74,19 +76,19 @@ border-radius:50px 50px 50px 50px;
 display:flex;
 align-items:center;
 padding-right:20px;
-padding-left:-1px;
+padding-left:10px;
 border-left:none;
 }
 .logo2
 {
-color:#0065FC;
-background-color:#D6EAF8 ;
-border-radius:100%;
 display:flex;
 align-items:center;
-justify-content: center;
-width:52px;
-height:52px;
+color:#0065FC;
+background-color:#D6EAF8;
+border-radius:100%;
+justify-content:center;
+padding:15px;
+margin-left:-10px;
 }
 #infos
 {
@@ -192,9 +194,27 @@ margin-top:40px;
 #activites
 {
 display:flex;
-flex-wrap: wrap;
-width:1400px;
+width:2000px
 }
+
+.figure3
+{
+height:170px;
+margin:25px
+}
+#activites2
+{
+position:relative;
+top:200px;
+right:900px;
+}
+#activites3
+{
+position: relative;
+top:200px;
+right:600px;
+}
+
 .edit3
 {
 border-radius: 10px 10px 0px 0px;
@@ -208,6 +228,7 @@ color:black
 display:flex;
 background-color: #F2F2F2;
 justify-content: space-around;
+margin-top:250px;
 }
 
 

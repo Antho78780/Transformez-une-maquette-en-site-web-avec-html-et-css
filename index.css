@@ -1,11 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
-body
+.responsive
 {
 margin:auto;
 height:auto;
 font-family:Raleway,sans-serif;
 width:1500px;
+}
+@media all and (max-width:1024px)and(max-height:1366px){
+.responsive{
+width:auto;
+height:auto;
+}
 }
 a
 {

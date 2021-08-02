@@ -8,19 +8,22 @@
 	</head>
 	<body>
 		<header>
-			<img src="logo/Reservia.png" alt="logo_page" id="logo">
+			<img src="logo/Reservia.png" alt="logo bleu clair Reservia" id="logo">
 			<nav id="menu_nav">
-				<a class="menu" href="#hebergements">Hébergements</a>
+				<a class="menu menu_color" href="#hebergements">Hébergements</a>
 				<a class="menu" href="#activites">Activités</a>
-				<a class="menu" href="#">S'inscrire</a>
+				<a class="menu menu_color" href="#">S'inscrire</a>
 			</nav>
 		</header>
-		<h2>Trouvez votre hébergement pour des vacances de rèves</h2>
-		<p>En plein centre ville ou en pleine nature</p>
+		<div id="header2">
+			<h2>Trouvez votre hébergement pour des vacances de rèves</h2>
+			<p>En plein centre ville ou en pleine nature</p>
+		</div>
 		<nav class="search">
 			<i class="fas fa-map-marker-alt"></i>
 			<input type="search" name="search" class="search"  placeholder="Marseille, France">
 			<button>Rechercher</button>
+			<i class="fas fa-search loupe"></i>
 		</nav>
 		<section id="toutlesfiltres">
 			<h2 class="searchtitres">Filtres</h2>   
@@ -44,17 +47,17 @@
 		<section id="infos">
 			<i class="fas fa-info"></i>
 		</section>
-		<p class="texte" >Plus de 500 logements sont disponibles dans cette ville</p>
+		<p id="texte" >Plus de 500 logements sont disponibles dans cette ville</p>
 		<article id="titres">
-			<h2 class="titre1">Hébergements à Marseille</h2> 
-			<h2 class="titre2">Les plus populaires</h2>
+			<h2 id="titre1">Hébergements à Marseille</h2> 
+			<h2 id="titre2">Les plus populaires</h2>
 			<i class="fas fa-chart-line logo3"></i>
 		</article>
 		<section id="hebergements">
 			<section id="main">
 				<a href="#">
 					<figure class="figure1">
-						<img src="hebergements/auberge_la_cannbierre.jpg" alt="chambre superposés" class="edit">
+						<img src="hebergements/auberge_la_cannbierre.jpg" alt="chambre avec lit superposés" class="edit">
 						<figcaption class="figcaption1">
 							<h3 class="figcaption2">Auberge la cannbierre</h3>
 							<p class="litletexte">Nuit à partir de <strong>25€</strong></p>
@@ -70,7 +73,7 @@
 				</a>
 				<a href="#">
 					<figure class="figure1">
-						<img src="hebergements/hotel_du_port.jpg" alt="port" class="edit">
+						<img src="hebergements/hotel_du_port.jpg" alt="chambre avec 2 lits" class="edit">
 						<figcaption class="figcaption1">
 							<h3 class="figcaption2">Hôtel du port</h3>
 							<p class="litletexte">Nuit à partir de 52<strong>€</strong></p>
@@ -86,7 +89,7 @@
 				</a>
 				<a href="#">
 					<figure class="figure1">
-						<img src="hebergements/hotel_les_mouettes.jpg" alt="mouettes" class="edit">
+						<img src="hebergements/hotel_les_mouettes.jpg" alt="chambre 1 lit" class="edit">
 						<figcaption class="figcaption1">
 							<h3 class="figcaption2">Hôtel les mouettes</h3>
 							<p class="litletexte">Nuit à partir de 76<strong>€</strong></p>
@@ -102,7 +105,7 @@
 				</a>
 				<a href="#">
 					<figure class="figure1">
-						<img src="hebergements/auberge_de_la_mer.jpg" alt="mer" class="edit">
+						<img src="hebergements/hotel_de_la_mer.jpg" alt="Chambre 1 grand lit" class="edit">
 						<figcaption class="figcaption1">
 							<h3 class="figcaption2">Hôtel de la mer</h3>
 							<p class="litletexte">Nuit à partir de 46<strong>€</strong></p>
@@ -118,7 +121,7 @@
 				</a>
 				<a href="#">
 					<figure class="figure1">
-						<img src="hebergements/auberge_le_panier.jpg" alt="Amina" class="edit">
+						<img src="hebergements/auberge_le_panier.jpg" alt="Chambre 4 petits lits" class="edit">
 						<figcaption class="figcaption1">
 							<h3 class="figcaption2">Auberge le panier</h3>
 							<p class="litletexte">Nuit à partir de <strong>23€</strong></p>
@@ -134,7 +137,7 @@
 				</a>
 				<a href="#">
 					<figure class="figure1">  
-						<img src="hebergements/hotel_chez_amina.jpg" alt="Amina" class="edit">
+						<img src="hebergements/hotel_chez_amina.jpg" alt="Chambre 1 lit avec bureau" class="edit">
 						<figcaption class="figcaption1">
 							<h3 class="figcaption2">Hôtel chez Amina</h3>
 							<p class="litletexte">Nuit à partir de 96<strong>€</strong></p>
@@ -148,12 +151,12 @@
 						</figcaption>
 					</figure> 
 				</a>
-				<a class="voirPlus"  href="#activites">Affichez plus</a> 
+				<a id="voirPlus"  href="#activites">Affichez plus</a> 
 			</section> 
 			<section class="main2">
 				<a href="#">
 					<figure class="figure2">
-						<img src="hebergements/hotel_le_soleil_du_matin.jpg" alt="Matin" class="edit2">
+						<img src="hebergements/hotel_le_soleil_du_matin.jpg" alt="Chambre 1 grand lit" class="edit2">
 						<figcaption class="figcaption3">
 							<h3 class="figcaption4">Hôtel le soleil du matin</h3>
 							<p class="litletexte">Nuit à partir de 120<strong>€</strong></p>
@@ -169,7 +172,7 @@
 				</a>
 				<a href="#">
 					<figure class="figure2">
-						<img src="hebergements/au_coeur_de_l'eau_chambres_d'hotes.jpg" alt="hôtes" class="edit2">
+						<img src="hebergements/au_coeur_de_l'eau_chambres_d'hotes.jpg" alt="Grande chambre avec 1 grand lit" class="edit2">
 						<figcaption class="figcaption3">
 							<h3 class="figcaption4">Au coeur de l'eau chambres d'hôtes</h3>
 							<p class="litletexte">Nuit à partir de 72<strong>€</strong></p>
@@ -185,7 +188,7 @@
 				</a>
 				<a href="#">
 					<figure class="figure2">
-						<img src="hebergements/hotel_tout_bleu_et_blanc.jpg" alt="bleu" class="edit2">
+						<img src="hebergements/hotel_tout_bleu_et_blanc.jpg" alt="Chambre 1 grand lit" class="edit2">
 						<figcaption class="figcaption3">
 							<h3 class="figcaption4">Hôtel tout bleu et blanc</h3>
 							<p class="litletexte">Nuit à partir de 68<strong>€</strong></p>
@@ -205,7 +208,7 @@
 		<section id="activites">
 			<a href="#">
 				<figure class="figure3">
-					<img src="activites/vieux_port.jpg" alt="Vieux Port" class="edit3">
+					<img src="activites/vieux_port.jpg" alt="Port ancien" class="edit3">
 					<figcaption class="figcaption5">
 						<h3 class="figcaption6">Vieux Port</h3>  
 					</figcaption>
@@ -213,7 +216,7 @@
 			</a>
 			<a href="#">
 				<figure class="figure3">
-					<img src="activites/fort_de_pomegues.jpg" alt="fort" class="edit4">
+					<img src="activites/fort_de_pomegues.jpg" alt="Fort" class="edit4">
 					<figcaption class="figcaption5">
 						<h3 class="figcaption6">Fort de Pomegues</h3>  
 					</figcaption>
@@ -221,7 +224,7 @@
 			</a>
 			<a href="#">
 				<figure class="figure3">
-					<img src="activites/parc_national_des_calanques.jpg" alt="calanques" class="edit3">
+					<img src="activites/parc_national_des_calanques.jpg" alt="Grande vue sur la Montagne" class="edit3">
 					<figcaption class="figcaption5">
 							<h3 class="figcaption6">Parc National des calanques</h3>
 					</figcaption> 
@@ -229,7 +232,7 @@
 			</a>
 			<a href="#">
 				<figure class="figure3">
-					<img src="activites/notre_dame_de_la_garde.jpg" alt="garde" class="edit4">
+					<img src="activites/notre_dame_de_la_garde.jpg" alt="Grande vue sur Notre Dame" class="edit4">
 					<figcaption class="figcaption5">
 						<h3 class="figcaption6">Notre-Dame-De-La-Garde</h3>  
 					</figcaption>
@@ -238,7 +241,7 @@
 			<article id="activites2">
 				<a href="#">
 					<figure class="figure3">
-						<img src="activites/iles_du_frioul.jpg" alt="Frioul" class="edit4">
+						<img src="activites/iles_du_frioul.jpg" alt="Vue sur la mer avec télescope" class="edit4">
 						<figcaption class="figcaption5">
 							<h3 class="figcaption6">Île de Frioul</h3>  
 						</figcaption>
@@ -248,7 +251,7 @@
 			<article id="activites3">
 				<a href="#">
 					<figure class="figure3">
-						<img src="activites/parc_longchamp.jpg" alt="longchamp" class="edit4">
+						<img src="activites/parc_longchamp.jpg" alt="Vue sur le parc et le palais" class="edit4">
 						<figcaption class="figcaption5">
 							<h3 class="figcaption6">Parc Longchamp</h3>  
 						</figcaption>
@@ -257,7 +260,7 @@
 			</article>     
 		</section>
 		<footer>
-			<article class="element">
+			<article id="element">
 				<h3 class="weight">A propos</h3>
 				<a href="Erreur404">
 					<p>Fonctionnement du site</p>
@@ -265,14 +268,14 @@
 					<p>Données de confidentialité</p>
 				</a>
 			</article>
-			<article class="element2">
+			<article id="element2">
 				<h3 class="weight">Nos hébergements</h3>
 				<a href="Erreur404">
 					<p>Charte qualité</p>
 					<p>Soumettre votre hôtel</p>
 				</a>
 			</article>
-			<article class="element2">
+			<article id="element3">
 				<h3 class="weight">Assistance</h3>
 				<a href="Erreur404">
 					<p>Centre d'aide</p>

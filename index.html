@@ -2,6 +2,8 @@
 <html lang="fr">
 	<head>
 		<link rel="stylesheet" href="index.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<script src="https://kit.fontawesome.com/1a7b1ecd7e.js" crossorigin="anonymous"></script>
 		<title>Reservia</title>
 		<meta charset="UTF-8">
@@ -15,10 +17,8 @@
 				<a class="menu menu_color" href="#">S'inscrire</a>
 			</nav>
 		</header>
-		<div id="header2">
-			<h2>Trouvez votre hébergement pour des vacances de rèves</h2>
-			<p>En plein centre ville ou en pleine nature</p>
-		</div>
+		<h2>Trouvez votre hébergement pour des vacances de rèves</h2>
+		<p>En plein centre ville ou en pleine nature</p>
 		<nav class="search">
 			<i class="fas fa-map-marker-alt"></i>
 			<input type="search" name="search" class="search"  placeholder="Marseille, France">
@@ -48,13 +48,10 @@
 			<i class="fas fa-info"></i>
 		</section>
 		<p id="texte" >Plus de 500 logements sont disponibles dans cette ville</p>
-		<article id="titres">
-			<h2 id="titre1">Hébergements à Marseille</h2> 
-			<h2 id="titre2">Les plus populaires</h2>
-			<i class="fas fa-chart-line logo3"></i>
 		</article>
 		<section id="hebergements">
 			<section id="main">
+				<h2 id="titre1">Hébergements à Marseille</h2> 
 				<a href="#">
 					<figure class="figure1">
 						<img src="hebergements/auberge_la_cannbierre.jpg" alt="chambre avec lit superposés" class="edit">
@@ -153,7 +150,9 @@
 				</a>
 				<a id="voirPlus"  href="#activites">Affichez plus</a> 
 			</section> 
-			<section class="main2">
+			<section id="main2">
+				<h2 id="titre2">Les plus populaires</h2>
+				<i class="fas fa-chart-line logo3"></i>
 				<a href="#">
 					<figure class="figure2">
 						<img src="hebergements/hotel_le_soleil_du_matin.jpg" alt="Chambre 1 grand lit" class="edit2">
@@ -204,7 +203,7 @@
 				</a>
 			</section>
 		</section>
-		<h2 class="titre3">Activités à Marseille</h2>
+		<h2 id="titre3">Activités à Marseille</h2>
 		<section id="activites">
 			<a href="#">
 				<figure class="figure3">
@@ -226,7 +225,7 @@
 				<figure class="figure3">
 					<img src="activites/parc_national_des_calanques.jpg" alt="Grande vue sur la Montagne" class="edit3">
 					<figcaption class="figcaption5">
-							<h3 class="figcaption6">Parc National des calanques</h3>
+						<h3 class="figcaption6">Parc National des calanques</h3>
 					</figcaption> 
 				</figure>
 			</a>
@@ -259,28 +258,23 @@
 				</a>
 			</article>     
 		</section>
-		<footer>
+		<footer id="footer">
 			<article id="element">
 				<h3 class="weight">A propos</h3>
-				<a href="Erreur404">
-					<p>Fonctionnement du site</p>
-					<p>Conditions générale de vente</p>
-					<p>Données de confidentialité</p>
+				<p>Fonctionnement du site</p>
+				<p>Conditions générale de vente</p>
+				<p>Données de confidentialité</p>
 				</a>
 			</article>
 			<article id="element2">
 				<h3 class="weight">Nos hébergements</h3>
-				<a href="Erreur404">
-					<p>Charte qualité</p>
-					<p>Soumettre votre hôtel</p>
-				</a>
+				<p>Charte qualité</p>
+				<p>Soumettre votre hôtel</p>
 			</article>
 			<article id="element3">
 				<h3 class="weight">Assistance</h3>
-				<a href="Erreur404">
-					<p>Centre d'aide</p>
-					<p>Nous Contacter</p>
-				</a>
+				<p>Centre d'aide</p>
+				<p>Nous Contacter</p>
 			</article>
 		</footer>
 	</body>

@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 body {
-	margin-left: 15%;
-	margin-right: 15%;
 	font-family: Raleway, sans-serif;
-	width: auto;
+	width: 1400px;
+	margin: auto;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 	body {
-		margin: auto;
+		width: 400px;
+		margin-left: 10px;
 	}
 	#toutlesfiltres {
 		flex-direction: column;
+		margin-right: 15px
 	}
 	#activites {
 		flex-wrap: wrap;
@@ -45,12 +46,18 @@ body {
 	}
 	#main {
 		flex-direction: column;
+		margin-left: -20px;
+	}
+	#main2 {
+		margin-left: -20px;
+	}
+	#titre1 {
+		max-width: 400px;
+		padding-top: 20px;
 	}
 	#activites {
 		flex-direction: column;
-	}
-	#activites2 {
-		flex-direction: column;
+		max-width: 350px;
 	}
 	.edit {
 		width: 350px;
@@ -61,9 +68,6 @@ body {
 	}
 	footer {
 		flex-direction: column;
-	}
-	.element {
-		background-color: #f2f2f2;
 	}
 }	
 a {
@@ -155,13 +159,14 @@ button {
 	display: flex;
 }
 #titre1 {
-	background-color: #f2f2f2;
 	border-radius: 10px 10px 0px 0px;
-	width: 870px;
+	background-color: #f2f2f2;
+	width: 560px;
 	height: 50px;
 	padding-left: 25px;
-	padding-top: 40px;
-	margin-bottom: -10px;
+	margin: auto;
+	margin-left: 10px;
+	margin-top: 80px;
 }
 #titre2 {
 	border-radius: 10px 10px 0px 0px;
@@ -175,7 +180,7 @@ button {
 	position: relative;
 	font-size: 1.2em;
 	left: 90%;
-	bottom: 7.5%;
+	bottom: 4%;
 }
 #hebergements {
 	display: flex;
@@ -227,6 +232,7 @@ button {
 	background-color: #f2f2f2;
 	width: 440px;
 	padding-top: 30px;
+	margin-top: 30px;
 }
 .figure2 {
 	box-shadow: 0px 0px 60px #d3d3d3;
@@ -262,12 +268,10 @@ button {
 	bottom:250px;
 	left:350px
 }
-
 #activites3 {
 	position: relative;
 	bottom: 255px;
 	left:700px
-
 }
 .figure3 {
 	margin: 25px;
@@ -283,12 +287,10 @@ button {
 }
 footer {
 	display: flex;
+	justify-content: space-around;
 	background-color: #f2f2f2;
-	height: 200px;
-	width: 1320px;
 	margin-left: 20px;
+	margin-top: 20px;
 	padding-top: 10px;
 }
-.element {
-	margin-right: 270px;
-}
+

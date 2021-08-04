@@ -12,16 +12,7 @@ body {
 	#toutlesfiltres {
 		flex-direction: column;
 	}
-	#titre3 {
-		margin-top: 60px;
-	}
-	.logo3 {
-		display: none;
-	}
 	#activites {
-		flex-wrap: wrap;
-	}
-	#footer {
 		flex-wrap: wrap;
 	}
 	#main2 {
@@ -42,13 +33,37 @@ body {
 		padding-bottom: 100px;
 	}
 	.menu_margin {
-		margin-left: 53%;
+		margin: auto;
+		margin-right: 10px;
+	}
+	.menu_margin3 {
+		margin: auto;
+	}
+	.menu_margin2 {
+		margin:auto;
+		margin-left: -120px;
 	}
 	#main {
 		flex-direction: column;
 	}
 	#activites {
 		flex-direction: column;
+	}
+	#activites2 {
+		flex-direction: column;
+	}
+	.edit {
+		width: 350px;
+		height: 130px
+	}	
+	.figure1 {
+		width:350px
+	}
+	footer {
+		flex-direction: column;
+	}
+	.element {
+		background-color: #f2f2f2;
 	}
 }	
 a {
@@ -234,13 +249,27 @@ button {
 	color: #0065fc;
 	margin-top: 40px;
 }
+#titre3 {
+	margin-top: 60px
+}
 #activites {
 	display: flex;
 	flex-wrap: wrap;
-	width: 1600px;
+	width: 1500px;
+}
+#activites2 {
+	position: relative;
+	bottom:250px;
+	left:350px
+}
+
+#activites3 {
+	position: relative;
+	bottom: 255px;
+	left:700px
+
 }
 .figure3 {
-	height: 500px;
 	margin: 25px;
 }
 .edit3 {
@@ -260,9 +289,6 @@ footer {
 	margin-left: 20px;
 	padding-top: 10px;
 }
-#element2 {
-	margin-left: 250px;
-}
-#element3 {
-	margin-left: 310px;
+.element {
+	margin-right: 270px;
 }

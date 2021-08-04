@@ -11,10 +11,17 @@ body {
 	}
 	#toutlesfiltres {
 		flex-direction: column;
-		margin-right: 15px
+		margin-right: 30px
 	}
 	#activites {
-		flex-wrap: wrap;
+		flex-direction: column;
+		max-width: 400px;
+	}
+	#activites2 {
+		padding-top: 40px;
+	}
+	#activites3 {
+		padding-top: 40px;
 	}
 	#main2 {
 		height: 10%;
@@ -55,14 +62,20 @@ body {
 		max-width: 400px;
 		padding-top: 20px;
 	}
-	#activites {
-		flex-direction: column;
-		max-width: 350px;
+	#titre3 {
+		margin-left: 20px;
 	}
 	.edit {
 		width: 350px;
 		height: 130px
+	}
+	.edit3 {
+		max-width: 300px;
+		max-height: 150px;
 	}	
+	.edit4 {
+		max-height: 120px;
+	}
 	.figure1 {
 		width:350px
 	}
@@ -192,6 +205,7 @@ button {
 	border-radius: 0px 0px 10px 10px;
 	background-color: #f2f2f2;
 	margin-right: 60px;
+	margin-top: 30px;
 }
 .figure1 {
 	background-color: white;
@@ -264,14 +278,14 @@ button {
 	width: 1500px;
 }
 #activites2 {
-	position: relative;
-	bottom:250px;
-	left:350px
+	position:sticky;
+	left: 31.5%;
+	margin-top: -17%
 }
 #activites3 {
-	position: relative;
-	bottom: 255px;
-	left:700px
+	position:sticky;
+	left: 69%;
+	margin-top: -17%;
 }
 .figure3 {
 	margin: 25px;

@@ -11,17 +11,7 @@ body {
 	}
 	#toutlesfiltres {
 		flex-direction: column;
-		margin-right: 30px
-	}
-	#activites {
-		flex-direction: column;
-		max-width: 400px;
-	}
-	#main2 {
-		height: 10%;
-	}
-	#hebergements {
-		flex-wrap: wrap-reverse;
+		margin-right: 35px
 	}
 	#menu_nav {
 		display:flex;
@@ -45,9 +35,19 @@ body {
 		margin:auto;
 		margin-left: -120px;
 	}
+	#hebergements {
+		flex-wrap: wrap-reverse;
+	}
 	#main {
 		flex-direction: column;
 		margin-left: -20px;
+	}
+	.figure1 {
+		width:350px
+	}
+	.edit {
+		width: 350px;
+		height: 130px
 	}
 	#main2 {
 		margin-left: -20px;
@@ -59,19 +59,21 @@ body {
 	#titre3 {
 		margin-left: 20px;
 	}
-	.edit {
-		width: 350px;
-		height: 130px
+	#activites {
+		flex-direction: column;
+		max-width: 400px;
 	}
-	.edit3 {
-		max-width: 300px;
-		max-height: 150px;
-	}
-	.edit4 {
+	#height {
+		object-fit: none;
+		object-fit: cover;
+		max-width: 500px;
 		max-height: 120px;
 	}
-	.figure1 {
-		width:350px
+	#height3 {
+		object-fit: none;
+		object-fit: cover;
+		max-width: 450px;
+		max-height: 150px;
 	}
 	footer {
 		flex-direction: column;
@@ -176,15 +178,14 @@ button {
 	height: 50px;
 	padding-left: 25px;
 	margin: auto;
-	margin-left: 10px;
+	margin-left: 4px;
 	margin-top: 50px;
 }
 #titre2 {
 	border-radius: 10px 10px 0px 0px;
-	margin-left: 60px;
-	padding-top: 10px;
+	padding-top: 20px;
 	margin: auto;
-	padding-left: 20px;
+	padding-left: 30px;
 	padding-top: 20px;
 }
 .logo3 {
@@ -222,6 +223,9 @@ button {
 }
 .figcaption2 {
 	margin-top: 0px;
+}
+.figcaption3 {
+	margin-left: 20px;
 }
 .litletexte {
 	margin-top: -15px;
@@ -278,14 +282,42 @@ button {
 .figure3 {
 	margin: 25px;
 }
+.margin1 {
+	margin-top: 58px;
+}
 .edit3 {
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 20px 20px 0px 0px;
 	width: 300px;
 }
-.edit4 {
+#height {
+	height: 395px;
+	width: 290px;
+	border-radius: 20px 20px 0px 0px;
+}
+#height1 {
+	width: 320px;
+	border-radius: 20px 20px 0px 0px;
+}
+#height2 {
 	width: 310px;
-	height: 160px;
-	border-radius: 10px 10px 0px 0px;
+	height: 110px;
+	border-radius: 20px 20px 0px 0px;
+}
+#height3 {
+	height: 395px;
+	width: 280px;
+	border-radius: 20px 20px 0px 0px;
+}
+#height4 {
+	width: 310px;
+	height: 130px;
+	border-radius: 20px 20px 0px 0px;
+}
+#height5 {
+	width: 300px;
+	height:160px;
+	margin-top: 33px;
+	border-radius: 20px 20px 0px 0px;
 }
 footer {
 	display: flex;

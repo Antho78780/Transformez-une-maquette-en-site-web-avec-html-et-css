@@ -6,7 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<script src="https://kit.fontawesome.com/1a7b1ecd7e.js" crossorigin="anonymous"></script>
 		<title>Reservia</title>
-		<meta charset="UTF-8">
 	</head>
 	<body>
 		<header>
@@ -17,7 +16,7 @@
 				<a class="menu menu_color menu_margin" href="#">S'inscrire</a>
 			</nav>
 		</header>
-		<h2>Trouvez votre hébergement pour des vacances de rèves</h2>
+		<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
 		<p>En plein centre ville ou en pleine nature</p>
 		<nav class="search">
 			<i class="fas fa-map-marker-alt pos"></i>
@@ -26,35 +25,35 @@
 		</nav>
 		<section id="toutlesfiltres">
 			<h2 class="searchtitres">Filtres</h2>   
-			<article class="searchfiltres">
+			<nav class="searchfiltres">
 				<i class="fas fa-money-bill-wave logo2"></i>    
 				<a href="#">Economique</a>
-			</article>
-			<article class="searchfiltres">
+			</nav>
+			<nav class="searchfiltres">
 				<i class="fas fa-child logo2"></i>
 				<a href="#">Familial</a>
-			</article>
-			<article class="searchfiltres">
+			</nav>
+			<nav class="searchfiltres">
 				<i class="fas fa-heart logo2"></i>
 				<a href="#">Romantique</a>
-			</article>
-			<article class="searchfiltres">
+			</nav>
+			<nav class="searchfiltres">
 				<i class="fas fa-dog logo2"></i>
 				<a href="#">Animaux Autorisés</a>
-			</article>
+			</nav>
 		</section>
-		<section id="infos">
+		<div id="infos">
 			<i class="fas fa-info"></i>
-		</section>
+		</div>
 		<p id="texte" >Plus de 500 logements sont disponibles dans cette ville</p>
-		<section id="hebergements"> 
-			<section id="main">
-				<h2 id="titre1">Hébergements à Marseille</h2> 
+		<div id="hebergements"> 
+			<section id="main"> 
+				<h2 id="titre1">Hébergements à Marseille</h2>
 				<a href="#"> 
 					<figure class="figure1"> 
 						<img src="hebergements/auberge_la_cannbierre.jpg" alt="chambre avec lit superposés" class="edit">
 						<figcaption class="figcaption1">
-							<h3 class="figcaption2">Auberge la cannbierre</h3>
+							<h3 class="figcaption2">Auberge la cannebière</h3>
 							<p class="litletexte">Nuit à partir de <strong>25€</strong></p>
 							<div class="stars">
 								<i class="fas fa-star"></i>
@@ -155,8 +154,8 @@
 					<figure class="figure2">
 						<img src="hebergements/hotel_le_soleil_du_matin.jpg" alt="Chambre 1 grand lit" class="edit2">
 						<figcaption class="figcaption3">
-							<h3 class="figcaption4">Hôtel le soleil du matin</h3>
-							<p class="litletexte">Nuit à partir de 120<strong>€</strong></p>
+							<h3 class="figcaption4">Hôtel Le soleil du matin</h3>
+							<p class="litletexte">Nuit à partir de 128<strong>€</strong></p>
 							<div class="stars2">
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
@@ -172,7 +171,7 @@
 						<img src="hebergements/au_coeur_de_l'eau_chambres_d'hotes.jpg" alt="Grande chambre avec 1 grand lit" class="edit2">
 						<figcaption class="figcaption3">
 							<h3 class="figcaption4">Au coeur de l'eau chambres d'hôtes</h3>
-							<p class="litletexte">Nuit à partir de 72<strong>€</strong></p>
+							<p class="litletexte">Nuit à partir de 71<strong>€</strong></p>
 							<div class="stars2">
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
@@ -200,13 +199,12 @@
 					</figure>
 				</a>
 			</section>
-		</section>
+		</div>
 		<h2 id="titre3">Activités à Marseille</h2>
 		<section id="activites">
 			<a href="#">
 				<figure class="figure3">
-					<img src="activites/vieux_port.jpg" alt="Port ancien" class="edit3">
-					<img src="activites/vieux_port_mobile.jpg" alt="port ancien" class="none">
+					<img src="activites/vieux_port.jpg" alt="Port ancien" id="height">
 					<figcaption class="figcaption5">
 						<h3 class="figcaption6">Vieux Port</h3>  
 					</figcaption>
@@ -215,24 +213,24 @@
 			<article id="activites2">
 				<a href="#">
 					<figure class="figure3">
-						<img src="activites/fort_de_pomegues.jpg" alt="Fort" class="edit4">
+						<img src="activites/fort_de_pomegues.jpg" alt="Fort" id="height1">
 						<figcaption class="figcaption5">
-							<h3 class="figcaption6">Fort de Pomegues</h3>  
+							<h3 class="figcaption6">Fort de Pomègues</h3>  
 						</figcaption>
 					</figure>  
 				</a>
 				<a href="#">
-					<figure class="figure3">
-						<img src="activites/iles_du_frioul.jpg" alt="Vue sur la mer avec télescope" class="edit4">
+					<figure class="figure3 margin1">
+						<img src="activites/iles_du_frioul.jpg" alt="Vue sur la mer avec télescope" id="height2">
 						<figcaption class="figcaption5">
-							<h3 class="figcaption6">Île de Frioul</h3>  
+							<h3 class="figcaption6">Île du Frioul</h3>  
 						</figcaption>
 					</figure>
 				</a>
 			</article>
 			<a href="#">
 				<figure class="figure3">
-					<img src="activites/parc_national_des_calanques.jpg" alt="Grande vue sur la Montagne" class="edit3">
+					<img src="activites/parc_national_des_calanques.jpg" alt="Grande vue sur la Montagne" id="height3">
 					<figcaption class="figcaption5">
 						<h3 class="figcaption6">Parc National des calanques</h3>
 					</figcaption> 
@@ -241,15 +239,15 @@
 			<article id="activites3">
 				<a href="#">
 					<figure class="figure3">
-						<img src="activites/notre_dame_de_la_garde.jpg" alt="Grande vue sur Notre Dame" class="edit4">
+						<img src="activites/notre_dame_de_la_garde.jpg" alt="Grande vue sur Notre Dame" id="height4">
 						<figcaption class="figcaption5">
-							<h3 class="figcaption6">Notre-Dame-De-La-Garde</h3>  
+							<h3 class="figcaption6">Notre-Dame-de-la-Garde</h3>  
 						</figcaption>
 					</figure>
 				</a>
 				<a href="#">
 					<figure class="figure3">
-						<img src="activites/parc_longchamp.jpg" alt="Vue sur le parc et le palais" class="edit4">
+						<img src="activites/parc_longchamp.jpg" alt="Vue sur le parc et le palais" id="height5">
 						<figcaption class="figcaption5">
 							<h3 class="figcaption6">Parc Longchamp</h3>  
 						</figcaption>

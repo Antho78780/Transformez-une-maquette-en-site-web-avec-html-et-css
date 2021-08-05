@@ -17,12 +17,6 @@ body {
 		flex-direction: column;
 		max-width: 400px;
 	}
-	#activites2 {
-		padding-top: 40px;
-	}
-	#activites3 {
-		padding-top: 40px;
-	}
 	#main2 {
 		height: 10%;
 	}
@@ -72,7 +66,7 @@ body {
 	.edit3 {
 		max-width: 300px;
 		max-height: 150px;
-	}	
+	}
 	.edit4 {
 		max-height: 120px;
 	}
@@ -82,7 +76,7 @@ body {
 	footer {
 		flex-direction: column;
 	}
-}	
+}
 a {
 	text-decoration: none;
 	color: black;
@@ -112,6 +106,9 @@ header {
 .search {
 	padding: 10px;
 }
+.pos {
+	margin-right: 20px;
+}
 :placeholder-shown {
 	font-weight: bold;
 	font-size: 1.1em;
@@ -124,6 +121,7 @@ button {
 	border-radius: 0px 12px 12px 0px;
 	border: 0px solid;
 	width: 100px;
+	margin-left: -50px
 }
 .loupe {
 	opacity: 0;
@@ -179,7 +177,7 @@ button {
 	padding-left: 25px;
 	margin: auto;
 	margin-left: 10px;
-	margin-top: 80px;
+	margin-top: 50px;
 }
 #titre2 {
 	border-radius: 10px 10px 0px 0px;
@@ -277,16 +275,6 @@ button {
 	flex-wrap: wrap;
 	width: 1500px;
 }
-#activites2 {
-	position:sticky;
-	left: 31.5%;
-	margin-top: -17%
-}
-#activites3 {
-	position:sticky;
-	left: 69%;
-	margin-top: -17%;
-}
 .figure3 {
 	margin: 25px;
 }
@@ -307,4 +295,6 @@ footer {
 	margin-top: 20px;
 	padding-top: 10px;
 }
-
+.none {
+	display:none
+}

@@ -49,6 +49,18 @@ body {
 		width: 350px;
 		height: 130px
 	}
+	.edit3 {
+		object-fit: none;
+		object-fit: cover;
+		max-width: 400px;
+		max-height: 130px;
+	}
+	.edit5 {
+		max-width: 310px;
+	}
+	.edit6 {
+		max-width: 305px;
+	}
 	#main2 {
 		margin-left: -20px;
 	}
@@ -62,18 +74,6 @@ body {
 	#activites {
 		flex-direction: column;
 		max-width: 400px;
-	}
-	#height {
-		object-fit: none;
-		object-fit: cover;
-		max-width: 500px;
-		max-height: 120px;
-	}
-	#height3 {
-		object-fit: none;
-		object-fit: cover;
-		max-width: 450px;
-		max-height: 150px;
 	}
 	footer {
 		flex-direction: column;
@@ -289,34 +289,17 @@ button {
 	border-radius: 20px 20px 0px 0px;
 	width: 300px;
 }
-#height {
-	height: 395px;
-	width: 290px;
+.edit4 {
 	border-radius: 20px 20px 0px 0px;
-}
-#height1 {
-	width: 320px;
-	border-radius: 20px 20px 0px 0px;
-}
-#height2 {
-	width: 310px;
+	width: 315px;
 	height: 110px;
-	border-radius: 20px 20px 0px 0px;
 }
-#height3 {
-	height: 395px;
-	width: 280px;
+.edit5 {
 	border-radius: 20px 20px 0px 0px;
+	width: 315px
 }
-#height4 {
-	width: 310px;
-	height: 130px;
-	border-radius: 20px 20px 0px 0px;
-}
-#height5 {
-	width: 300px;
-	height:160px;
-	margin-top: 33px;
+.edit6 {
+	width: 320px;
 	border-radius: 20px 20px 0px 0px;
 }
 footer {

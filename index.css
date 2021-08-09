@@ -125,9 +125,6 @@ button {
 	width: 100px;
 	margin-left: -50px
 }
-.loupe {
-	opacity: 0;
-}
 #toutlesfiltres {
 	display: flex;
 }

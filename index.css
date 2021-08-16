@@ -12,14 +12,30 @@ body {
 		margin-left: 10px;
 		max-width: 350px;
 	}
+	button {
+		display: none
+	}
+	.pos2 {
+		color: white;
+		background-color: #0065fc;
+		padding: 10px;
+		border-radius: 10px;
+		font-size: 0.8em;
+	}
 	.center {
 		max-width: 91%;
 		margin-left: 40px;
 		max-width: 320px;
 	}
 	#toutlesfiltres {
-		flex-direction: column;
 		margin-right: 70px;
+		flex-wrap: wrap;
+	}
+	#flex {
+		display: flex;
+	}
+	#column {
+		flex-direction: column;
 	}
 	#texte {
 		max-width: 300px;
@@ -99,9 +115,15 @@ a {
 	text-decoration: none;
 	color: black;
 }
+#column {
+	display: flex;
+}
 img {
 	margin: auto;
 	width: 250px;
+}
+#flex {
+	display: flex;
 }
 header {
 	display: flex;
@@ -332,7 +354,4 @@ footer {
 	margin-left: 20px;
 	margin-top: 20px;
 	padding-top: 10px;
-}
-.none {
-	display:none
 }

@@ -10,14 +10,19 @@ body {
 	}
 	header {
 		margin-left: 10px;
+		max-width: 350px;
 	}
 	.center {
 		max-width: 91%;
 		margin-left: 40px;
+		max-width: 320px;
 	}
 	#toutlesfiltres {
 		flex-direction: column;
 		margin-right: 70px;
+	}
+	#texte {
+		max-width: 300px;
 	}
 	#menu_nav {
 		display: flex;
@@ -49,19 +54,19 @@ body {
 		max-width: 90%;
 	}
 	#main2 {
-		max-width: 97%;
+		max-width: 92%;
 	}
 	#titre1 {
 		max-width: 90%;
 		max-height: 0%;
 		padding-bottom: 30px;
 	}
-	.figure1 {
-		width: 350px;
-	}
 	.edit {
-		width: 350px;
+		width: 320px;
 		height: 130px;
+	}
+	.figure2 {
+		max-width: 80%;
 	}
 	.edit3 {
 		object-fit: none;
@@ -83,10 +88,11 @@ body {
 	}
 	#activites {
 		flex-direction: column;
-		max-width: 400px;
+		max-width: 370px;
 	}
 	footer {
 		flex-direction: column;
+		max-width: 85%;
 	}
 }
 a {

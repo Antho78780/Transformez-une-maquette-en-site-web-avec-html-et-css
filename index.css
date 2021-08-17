@@ -15,8 +15,15 @@ body {
 		color: white;
 		background-color: #0065fc;
 		padding: 10px;
+		padding-top: 14px;
+		padding-bottom: 12px;
+		padding-right: 13px;
+		padding-left: 13px;
 		border-radius: 10px;
 		font-size: 1.1em;
+		margin-left: 290px;
+		margin-left: -5px;
+		
 	}
 	.figure1 {
 		min-width: 350px;
@@ -57,6 +64,7 @@ body {
 		flex-direction: column;
 		min-width: 94%;
 		background-color: #fff;
+		margin-left: -10px;
 	}
 	section#main {
 		background-color: #fff;
@@ -115,7 +123,6 @@ body {
 	#activites {
 		flex-direction: column;
 		max-width: 370px;
-		margin-left: 10px;
 	}
 	.figure3 {
 		max-width: 90%;
@@ -172,6 +179,16 @@ body {
 	margin-top: 20px;
 	margin-left: 20px;
 	}
+	.search {
+		min-width: 200px;
+	}
+	.pos {
+		margin-left: 30px;
+		padding-right: 10px;
+	}
+	nav.search{
+		max-width: 1000px;
+	}
 }
 a {
 	text-decoration: none;
@@ -212,22 +229,33 @@ header {
 .search {
 	padding: 10px;
 }
-.pos {
-	margin-right: 20px;
+i.pos {
+	margin-right: -4px;
+	padding-right: 13px;
+	padding-bottom: 11px;
+	padding-top: 15px;
+	padding-left: 15px;
 }
 :placeholder-shown {
 	font-weight: bold;
 	font-size: 1.1em;
-	border: 0px solid;
+	border: 1px solid #f2f2f2;
+	width: 15%;
+	padding-left: 10px;
+	padding-top: 11px;
+	padding-bottom: 7.5px;
+	padding-right: 30px;
 }
 button {
 	background-color: #0065fc;
 	color: white;
 	padding: 10px 10px 10px 10px;
+	padding-top: 15px;
+	padding-bottom: 9px;
 	border-radius: 0px 12px 12px 0px;
 	border: 0px solid;
 	width: 100px;
-	margin-left: -50px
+	margin-left: -25px
 }
 #toutlesfiltres {
 	display: flex;

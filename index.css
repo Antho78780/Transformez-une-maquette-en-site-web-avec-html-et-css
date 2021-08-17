@@ -43,11 +43,14 @@ body {
 	}
 	nav.marg1 {
 		margin-left: 10px
-
 	}
 	#column {
 		flex-direction: column;
-		margin-left: 5px
+		margin-left: 5px;
+		margin-top: 15px;
+	}
+	.marg2 {
+		margin-top: 15px;
 	}
 	#texte {
 		max-width: 300px;
@@ -70,6 +73,7 @@ body {
 		flex-direction: column;
 		min-width: 100%;
 		background-color: #fff;
+		margin-left: -5px;
 	}
 	section#main {
 		background-color: #fff;
@@ -154,7 +158,7 @@ body {
 		margin-left: 200px;
 		margin-top: 20px;
 	}
-	img#logo {
+	#logo {
 		margin-top: 30px;
 	}
 	a.menu_margin2 {
@@ -193,6 +197,20 @@ body {
 	nav.search{
 		max-width: 1000px;
 	}
+	.infos2 {
+		border: 1px solid #f2f2f2;
+		border-radius: 100px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	div#infos {
+		margin-left: -12px;
+	}
+	p#texte {
+		margin-top: -25px;
+	}
 }
 a {
 	text-decoration: none;
@@ -225,7 +243,6 @@ header {
 }
 #logo {
 	width: 100px;
-	margin-left: 0%;
 }
 #menu_nav {
 	display: flex;

@@ -221,6 +221,7 @@ a {
 img#logo {
 	height: 50px;
 	width: 130px;
+	margin-left: 0px;
 }
 #column {
 	display: flex;

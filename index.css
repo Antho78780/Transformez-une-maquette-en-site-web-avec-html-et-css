@@ -6,11 +6,7 @@ body {
 }
 @media screen and (max-width: 768px) {
 	body {
-		width: 414px;
-	}
-	header {
-		margin-left: 10px;
-		max-width: 350px;
+		width: auto;
 	}
 	button {
 		display: none
@@ -20,15 +16,16 @@ body {
 		background-color: #0065fc;
 		padding: 10px;
 		border-radius: 10px;
-		font-size: 0.8em;
+		font-size: 1.1em;
+	}
+	.figure1 {
+		min-width: 350px;
 	}
 	.center {
-		max-width: 91%;
 		margin-left: 40px;
 		max-width: 320px;
 	}
 	#toutlesfiltres {
-		margin-right: 70px;
 		flex-wrap: wrap;
 	}
 	#flex {
@@ -44,33 +41,26 @@ body {
 		display: flex;
 		flex-wrap: wrap-reverse;
 	}
-	.menu {
-		margin-left: -10px;
+	.menu_margin {
+		margin-left: 180px;
+	}
+	#marg1 {
+		margin-left: -110px;
+		margin-bottom: 30px;
 	}
 	#logo {
 		width: 100px;
 		padding-bottom: 100px;
-	}
-	.menu_margin {
-		margin: auto;
-		margin-right: 10px;
-	}
-	.menu_margin3 {
-		margin: auto;
-	}
-	.menu_margin2 {
-		margin:auto;
-		margin-left: -120px;
 	}
 	#hebergements {
 		flex-wrap: wrap-reverse;
 	}
 	#main {
 		flex-direction: column;
-		max-width: 90%;
+		min-width: 94%;;
 	}
 	#main2 {
-		max-width: 92%;
+		max-width: 100%;
 	}
 	#titre1 {
 		max-width: 90%;
@@ -78,23 +68,38 @@ body {
 		padding-bottom: 30px;
 	}
 	.edit {
-		width: 320px;
+		width: 355px;
 		height: 130px;
 	}
 	.figure2 {
 		max-width: 80%;
 	}
 	.edit3 {
-		object-fit: none;
-		object-fit: cover;
-		max-width: 400px;
-		max-height: 130px;
+		display: none
 	}
-	.edit5 {
-		max-width: 310px;
+	.edit8 {
+		visibility:visible;
+		min-width: 370px;
+		border-radius: 10px 10px 0px 0px;
+	}
+	.edit4 {
+		min-width:367px;
+		min-height: 160px;
 	}
 	.edit6 {
-		max-width: 305px;
+		min-width: 370px;
+	}
+	.edit5 {
+		min-width: 100%;
+		border-radius: 10px 10px 0px 0px;
+	}
+	.edit7 {
+		display: none;
+	}
+	.edit9 {
+		min-width: 370px;
+		min-height: 170px;
+		border-radius: 10px 10px 0px 0px;
 	}
 	#titre1 {
 		padding-top: 20px;
@@ -105,15 +110,34 @@ body {
 	#activites {
 		flex-direction: column;
 		max-width: 370px;
+		margin-left: 10px;
+	}
+	.figure3 {
+		max-width: 90%;
+	}
+	.figcaption5 {
+		margin-left: 20px;
 	}
 	footer {
 		flex-direction: column;
-		max-width: 85%;
+		max-width: 92%;
+	}
+	#marg1 {
+		margin-top: 100px;
+	}
+	.menu_margin3 {
+		border-bottom: 2px solid red;
+		padding-bottom: 10px;
 	}
 }
 a {
 	text-decoration: none;
 	color: black;
+}
+#logo {
+	margin-left: 10px;
+	height: 50px;
+	width: 130px
 }
 #column {
 	display: flex;
@@ -132,16 +156,15 @@ header {
 .menu_color {
 	color: #0065fc;
 }
+.menu {
+	margin-left: 70px;
+}
 #logo {
 	width: 100px;
 	margin-left: 0%;
 }
-.menu {
-	padding: 40px;
-}
-.menu:hover {
-	color: #0065fc;
-	border-top: 2px solid;
+#menu_nav {
+	display: flex
 }
 .search {
 	padding: 10px;
@@ -165,6 +188,15 @@ button {
 }
 #toutlesfiltres {
 	display: flex;
+	margin-left: -25px;
+}
+.searchtitres {
+	margin-left: 35px;
+}
+.pos {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px 0px 0px 10px;
 }
 .searchtitres {
 	font-size: 1.1em;
@@ -325,27 +357,41 @@ button {
 }
 .figure3 {
 	margin: 25px;
-	box-shadow: 10px 10px 10px #f2f2f2;
+	box-shadow: 0 0 20px #0000002e;
+	border-radius: 20px 20px 20px 20px;
 }
 .margin1 {
 	margin-top: 58px;
 }
 .edit3 {
 	border-radius: 20px 20px 0px 0px;
-	width: 300px;
+	height: 410px;
+	width: 320px;
+	object-fit: none;
 }
 .edit4 {
 	border-radius: 20px 20px 0px 0px;
-	width: 315px;
+	width: 325px;
 	height: 110px;
 }
 .edit5 {
 	border-radius: 20px 20px 0px 0px;
-	width: 315px
+	height: 170px;
+	width: 325px;
 }
 .edit6 {
-	width: 320px;
+	width: 325px;
 	border-radius: 20px 20px 0px 0px;
+}
+.edit7 {
+	width:321px;
+	border-radius: 20px 20px 0px 0px;
+}
+.edit8 {
+	width: 0px;
+}
+.edit9 {
+	width: 0px;
 }
 footer {
 	display: flex;
@@ -355,3 +401,21 @@ footer {
 	margin-top: 20px;
 	padding-top: 10px;
 }
+.menu:hover {
+	border-top: 2px solid #0065fc;
+}
+.menu_margin2 {
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.menu_margin3 {
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.menu_margin:hover {
+	border-top: none;
+	
+}
+

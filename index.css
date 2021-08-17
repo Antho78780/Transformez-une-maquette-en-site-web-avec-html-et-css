@@ -30,9 +30,11 @@ body {
 	}
 	#flex {
 		display: flex;
+		margin-left: 15px;
 	}
 	#column {
 		flex-direction: column;
+		margin-left: 15px;
 	}
 	#texte {
 		max-width: 300px;
@@ -44,10 +46,6 @@ body {
 	.menu_margin {
 		margin-left: 180px;
 	}
-	#marg1 {
-		margin-left: -110px;
-		margin-bottom: 30px;
-	}
 	#logo {
 		width: 100px;
 		padding-bottom: 100px;
@@ -57,7 +55,14 @@ body {
 	}
 	#main {
 		flex-direction: column;
-		min-width: 94%;;
+		min-width: 94%;
+		background-color: #fff;
+	}
+	section#main {
+		background-color: #fff;
+	}
+	h2#titre1 {
+		background-color: #fff;
 	}
 	#main2 {
 		max-width: 100%;
@@ -122,12 +127,50 @@ body {
 		flex-direction: column;
 		max-width: 92%;
 	}
-	#marg1 {
-		margin-top: 100px;
+	a.menu:hover {
+		border-top:none;
+	}
+	.menu_margin2:hover {
+		border-bottom: 3px solid #0065fc;
+		padding-bottom: 10px;
+	}
+	nav.search {
+		margin-left: 20px;
+	}
+	
+	a.menu_margin {
+		margin-left: 200px;
+		margin-top: 20px;
+	}
+	img#logo {
+		margin-left: 20px;
+		margin-top: 30px;
+	}
+	a.menu_margin2 {
+		margin-left: -120px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	a.menu_margin3 {
+		margin-left: 1px;
+		padding-left: 80px;
+		padding-right: 59px;
 	}
 	.menu_margin3 {
-		border-bottom: 2px solid red;
-		padding-bottom: 10px;
+		border-bottom: 3px solid #f2f2f2;
+	}
+	.menu_margin3:hover {
+		border-bottom: 3px solid #0065fc;
+	}	
+	h2.searchtitres {
+		margin-left: 55px;
+	}
+	p#texte {
+		margin-left: 60px
+	}
+	.infos2 {
+	margin-top: 20px;
+	margin-left: 20px;
 	}
 }
 a {
@@ -164,7 +207,7 @@ header {
 	margin-left: 0%;
 }
 #menu_nav {
-	display: flex
+	display: flex;
 }
 .search {
 	padding: 10px;
@@ -404,18 +447,10 @@ footer {
 .menu:hover {
 	border-top: 2px solid #0065fc;
 }
-.menu_margin2 {
-	padding-top: 30px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-.menu_margin3 {
-	padding-top: 30px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
 .menu_margin:hover {
 	border-top: none;
-	
+}
+.menu {
+	padding-top: 30px;
 }
 

@@ -400,7 +400,7 @@ button {
 }
 .figure3 {
 	margin: 25px;
-	box-shadow: 0 0 20px #0000002e;
+	box-shadow: 0 0 5px #dcdcdc;
 	border-radius: 20px 20px 20px 20px;
 }
 .margin1 {
@@ -410,7 +410,7 @@ button {
 	border-radius: 20px 20px 0px 0px;
 	height: 410px;
 	width: 320px;
-	object-fit: none;
+	
 }
 .edit4 {
 	border-radius: 20px 20px 0px 0px;
@@ -452,5 +452,8 @@ footer {
 }
 .menu {
 	padding-top: 30px;
+}
+.figcaption5 {
+	margin-left: 20px
 }
 

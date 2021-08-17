@@ -23,10 +23,12 @@ body {
 		font-size: 1.1em;
 		margin-left: 290px;
 		margin-left: -5px;
-		
+	}
+	a.marg1 {
+		margin-right: 10px;
 	}
 	.figure1 {
-		min-width: 350px;
+		max-width: 310px;
 	}
 	.center {
 		margin-left: 40px;
@@ -37,11 +39,15 @@ body {
 	}
 	#flex {
 		display: flex;
-		margin-left: 15px;
+		margin-left: 5px;
+	}
+	nav.marg1 {
+		margin-left: 10px
+
 	}
 	#column {
 		flex-direction: column;
-		margin-left: 15px;
+		margin-left: 5px
 	}
 	#texte {
 		max-width: 300px;
@@ -62,9 +68,8 @@ body {
 	}
 	#main {
 		flex-direction: column;
-		min-width: 94%;
+		min-width: 100%;
 		background-color: #fff;
-		margin-left: -10px;
 	}
 	section#main {
 		background-color: #fff;
@@ -81,7 +86,7 @@ body {
 		padding-bottom: 30px;
 	}
 	.edit {
-		width: 355px;
+		width: 310px;
 		height: 130px;
 	}
 	.figure2 {
@@ -92,15 +97,15 @@ body {
 	}
 	.edit8 {
 		visibility:visible;
-		min-width: 370px;
+		min-width: 330px;
 		border-radius: 10px 10px 0px 0px;
 	}
 	.edit4 {
-		min-width:367px;
+		min-width:330px;
 		min-height: 160px;
 	}
 	.edit6 {
-		min-width: 370px;
+		min-width: 330px;
 	}
 	.edit5 {
 		min-width: 100%;
@@ -110,7 +115,7 @@ body {
 		display: none;
 	}
 	.edit9 {
-		min-width: 370px;
+		min-width: 330px;
 		min-height: 170px;
 		border-radius: 10px 10px 0px 0px;
 	}
@@ -125,7 +130,7 @@ body {
 		max-width: 370px;
 	}
 	.figure3 {
-		max-width: 90%;
+		max-width: 330px;
 	}
 	.figcaption5 {
 		margin-left: 20px;
@@ -142,7 +147,7 @@ body {
 		padding-bottom: 10px;
 	}
 	nav.search {
-		margin-left: 20px;
+		margin-left: -10px;
 	}
 	
 	a.menu_margin {
@@ -150,7 +155,6 @@ body {
 		margin-top: 20px;
 	}
 	img#logo {
-		margin-left: 20px;
 		margin-top: 30px;
 	}
 	a.menu_margin2 {
@@ -160,7 +164,7 @@ body {
 	}
 	a.menu_margin3 {
 		margin-left: 1px;
-		padding-left: 80px;
+		padding-left: 50px;
 		padding-right: 59px;
 	}
 	.menu_margin3 {
@@ -180,7 +184,7 @@ body {
 	margin-left: 20px;
 	}
 	.search {
-		min-width: 200px;
+		min-width: 250px;
 	}
 	.pos {
 		margin-left: 30px;
@@ -194,10 +198,10 @@ a {
 	text-decoration: none;
 	color: black;
 }
-#logo {
-	margin-left: 10px;
+img#logo {
 	height: 50px;
-	width: 130px
+	width: 130px;
+	margin-left: 0px;
 }
 #column {
 	display: flex;
@@ -228,6 +232,7 @@ header {
 }
 .search {
 	padding: 10px;
+	width: 100%;
 }
 i.pos {
 	margin-right: -4px;

@@ -8,8 +8,12 @@ body {
 	body {
 		width: auto;
 	}
+	
 	button {
 		display: none
+	}
+	img#logo {
+		margin-left: 10px;
 	}
 	.pos2 {
 		color: white;
@@ -64,16 +68,14 @@ body {
 	}
 	#logo {
 		width: 100px;
-		padding-bottom: 100px;
 	}
 	#hebergements {
 		flex-wrap: wrap-reverse;
 	}
 	#main {
 		flex-direction: column;
-		min-width: 100%;
+		min-width: 92%;
 		background-color: #fff;
-		margin-left: -5px;
 	}
 	section#main {
 		background-color: #fff;
@@ -155,10 +157,10 @@ body {
 	}
 	
 	a.menu_margin {
-		margin-left: 200px;
+		margin-left: 180px;
 		margin-top: 20px;
 	}
-	#logo {
+	img#logo {
 		margin-top: 30px;
 	}
 	a.menu_margin2 {
@@ -169,7 +171,7 @@ body {
 	a.menu_margin3 {
 		margin-left: 1px;
 		padding-left: 50px;
-		padding-right: 59px;
+		padding-right: 63px;
 	}
 	.menu_margin3 {
 		border-bottom: 3px solid #f2f2f2;
@@ -188,7 +190,7 @@ body {
 	margin-left: 20px;
 	}
 	.search {
-		min-width: 250px;
+		min-width: 240px;
 	}
 	.pos {
 		margin-left: 30px;
